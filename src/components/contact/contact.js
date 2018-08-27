@@ -14,8 +14,9 @@ const Contact = () => (
         <h5>Contact</h5>
         <Card>
           <Row>
-              <Input placeholder="lorem@ipsum.com" type="email" label="Email" s={12} />
-              <Input placeholder="Lorem Ipsum..." label="Message" s={12} />
+              <Input placeholder="lfonteesc@gmail.com" type="email" label="Email" s={12} disabled />
+              <Input placeholder="(88)99742-7767" label="Phone" s={12} disabled />
+              <Input placeholder="https://github.com/lfontesc" label="Github" s={12} disabled />
             <Col s={12} m={12}>
               <Button waves='light' className="right grey darken-2">SEND</Button>
             </Col>
